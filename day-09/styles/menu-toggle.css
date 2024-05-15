@@ -2,7 +2,7 @@
     background-color: #ddd;
     
     /* Option #1 */
-    
+    display: none;
 
     /* Option #2 */
     
@@ -13,7 +13,7 @@
 
 #main-nav-list.toggled {
     /* Option #1 - Toggled */
-    
+    display: block;
 
     /* Option #2 - Toggled */
     
