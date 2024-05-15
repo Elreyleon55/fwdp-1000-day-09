@@ -5,11 +5,17 @@
     /* display: none; */
 
     /* Option #2 */
-    height: 0;
+   
+    /* height: 0;
     overflow: hidden;
-     transition: height .5s ease;
+     transition: height .5s ease; */
 
     /* Option #3 */
+
+    position: fixed;
+    left: -100%;
+    top: 3rem;
+    transition: left .5s ease;
     
 }
 
@@ -18,10 +24,16 @@
     /* display: block; */
 
     /* Option #2 - Toggled */
-    height: 100vh;
+   
+    /* height: 100vh; */
+    
 
     /* Option #3 - Toggled */
     
+    left: 0;
+
+
+
 }
 
 
